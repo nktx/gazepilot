@@ -1,7 +1,7 @@
 {
-  "name": "gazemark",
+  "name": "gazepilot",
   "version": "1.0.0",
-  "description": "marking menu interface on gaze control interaction",
+  "description": "some pilot studies on gaze control interaction",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
