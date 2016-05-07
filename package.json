@@ -1,0 +1,25 @@
+{
+  "name": "gazemark",
+  "version": "1.0.0",
+  "description": "marking menu interface on gaze control interaction",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nktx",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.1",
+    "jsonfile": "^2.2.3",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-watch": "^4.3.5"
+  }
+}
