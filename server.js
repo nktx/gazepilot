@@ -65,7 +65,3 @@ app.get('/path', function(req, res) {
 app.get('/pathr', function(req, res) {
 	res.render('pages/pathr');
 });
-
-app.get('/circle', function(req, res) {
-	res.render('pages/circle');
-});
