@@ -14,8 +14,8 @@ $(function() {
 	function drawResult(result){
 		result.forEach(function (data){
 			
-			var offsetX = data.startPosition.X - 320;
-			var offsetY = data.startPosition.Y - 320;
+			var offsetX = data.startPosition.X - 380;
+			var offsetY = data.startPosition.Y - 380;
 			
 			var translatedPath = data.path.map(function(p){
 				return {
