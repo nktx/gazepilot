@@ -1,3 +1,5 @@
+var audio = new Audio('assets/pi.ogg');
+
 Menu = function() {
 	this.mode = false;
 
@@ -124,18 +126,22 @@ $(function() {
 
 			if ($this.hasClass('trigger--top')) {
 				$this.addClass('triggered r');
+				audio.play();
 			}
 
 			if ($this.hasClass('trigger--right')) {
 				$this.addClass('triggered g');
+				audio.play();
 			}
 
 			if ($this.hasClass('trigger--bottom')) {
 				$this.addClass('triggered b');
+				audio.play();
 			}
 
 			if ($this.hasClass('trigger--left')) {
 				$this.addClass('triggered y');
+				audio.play();
 			}
 
 		};
